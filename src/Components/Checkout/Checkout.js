@@ -69,7 +69,7 @@ function Checkout() {
             );
           })}
         </div>
-        <h6 className="total-price">Total price is {totalPrice} L.E.</h6>
+        <h6 className="total-price">Total price is {Math.round(totalPrice*100)/100} L.E.</h6>
       </div>
       <div className="col-10 col-md-8 col-lg-5 Chechout__form">
         <div>

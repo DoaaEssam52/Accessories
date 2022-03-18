@@ -15,7 +15,7 @@ function ProductCard(props) {
           <h6 className="row mx-0">
             <span className="col-12 col-md-6 px-0">{Product.count} item(s)</span>
             <span className="col-12 col-md-6 px-0 checkout-product__total-cost">
-              {Product.price * Number(Product.count)} L.E
+              {Math.round(Product.price * Number(Product.count)*100)/100} L.E
             </span>
           </h6>
         </div>
