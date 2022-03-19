@@ -69,7 +69,7 @@ function NavbarSmall(props) {
                     key={Math.random() * 1000}
                     className="nav-item"
                   >
-                    <Link className={`${"nav-link"}`} to={`/${tab.url}`}>
+                    <Link className={`${"nav-link"}`} to={`/${tab.url}`} onClick={toggleExpand}>
                       {tab.title}
                     </Link>
                   </li>

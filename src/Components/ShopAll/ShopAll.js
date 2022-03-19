@@ -17,11 +17,11 @@ function ShopAll() {
   return (
     <div>
       {error == false && (
-        <>
+        <div className="text-center">
           {products?.map((value, index) => {
             return <ProductCard key={index} Product={value} id={index} />;
           })}
-        </>
+        </div>
       )}
       {error == true && <Loader />}
     </div>
