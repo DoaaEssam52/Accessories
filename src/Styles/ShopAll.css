@@ -1,0 +1,46 @@
+.shop-all{
+    margin: 0 !important;
+    padding: 0 35px;
+    justify-content: center;
+}
+/*************
+FILTER SECTION
+*************/
+.filter__title,.filter__item,.filter__item__type{
+    font-family: avenir;
+    padding: 20px 5px;
+}
+.filter__title{
+    font-size: 26px;
+    margin-bottom: 0;
+    border-bottom:1px solid #CFCFCF;
+}
+.filter__item{
+    font-size: 16px;
+    list-style: none;
+    border-bottom:1px solid #CFCFCF;
+}
+.filter__item__icon{
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.filter__item__type{
+    font-size: 14px;
+    list-style: none;
+    padding: 6px 5px 3px;
+    position: relative;
+    left: 0;
+    transition: left 0.5s,color 0s ;
+    cursor: pointer;
+}
+.filter__item__type:hover{
+color: rgb(188, 76, 42);
+}
+.filter__item__type--active{
+    font-weight: 900;
+    color: rgb(188, 76, 42);
+    position: relative;
+    left: 5px;
+}

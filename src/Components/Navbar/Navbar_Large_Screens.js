@@ -40,7 +40,6 @@ function NavbarLarge(props) {
   useEffect(() => {
     showHideNav();
   }, []);
-  // const [activeTab, setActive] = useState("");
   return (
     <div id="nav-section">
       <div className="row nav-top">
@@ -52,7 +51,7 @@ function NavbarLarge(props) {
             <input className="search" type="search" placeholder="Search..." />
           </form>
         </div>
-        <div className="col-lg-3 col-2 nav-brand">adalene.</div>
+        <div className="col-lg-3 col-2 nav-brand">Belle.</div>
         <div className="col-lg-5 col-10">
           <ul className="navbar-nav--head">
             {socialIcons.map((element) => {

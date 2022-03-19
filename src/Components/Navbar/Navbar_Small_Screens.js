@@ -104,7 +104,7 @@ function NavbarSmall(props) {
               </button>
             </div>
           </div>
-          <div className="nav-brand">adalene.</div>
+          <div className="nav-brand">Belle.</div>
         </>
       )}
     </div>

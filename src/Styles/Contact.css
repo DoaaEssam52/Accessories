@@ -68,9 +68,9 @@
   letter-spacing: 0.16px;
 }
 
-/******************
-       FORM
-******************/
+/***
+FORM
+***/
 
 .contact-form {
   vertical-align: middle;
@@ -89,7 +89,7 @@
   color: rgb(17, 17, 17);
 }
 .contact-form__error {
-  color: red;
+  color: rgb(110, 6, 6);
   font-size: 14px;
 }
 .contact-form__inputs {

@@ -24,7 +24,7 @@
   text-transform: uppercase;
 }
 .Auth-form__error {
-  color: red;
+  color: rgb(110, 6, 6);
   font-size: 14px;
 }
 
@@ -45,9 +45,7 @@ a {
 }
 .Auth-button:active {
   transform: scale(0.98);
-  /* Scaling button to 0.98 to its original size */
   box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
-  /* Lowering the shadow */
 }
 .Auth-container {
   display: flex;
@@ -58,23 +56,23 @@ a {
 }
 .Auth-container__toggle-section {
   border-radius: 4px;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../Images/auth5.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("../Images/auth.webp");
+    background-position: right;
   background-size: cover;
   padding: 80px 30px 10px;
   min-height: 500px;
   width: 350px;
 }
 .Auth-form__desc {
-  color: rgb(243, 240, 240);
+  color: rgb(214, 214, 214);
   font-size: 18px;
   font-family: avenir;
   text-align: center;
-  margin-bottom: 200px;
+  margin-bottom: 150px;
 }
 .Auth-button {
   display: block;
-  border-radius: 30px;
   font-size: 15px;
   font-weight: 500;
   cursor: pointer;
@@ -85,19 +83,20 @@ a {
   letter-spacing: 2px;
 }
 .Auth-form-button{
-  margin: 35px auto 0;
-  width: 260px;
-  height: 36px;
-  color: #fff;
-  background: #d4af7a;
+  margin: 40px auto 0;
+  background-color: transparent;
+  color: rgb(188, 76, 42);
+  border: 1px solid rgb(188, 76, 42);
+  padding: 0.5rem 2rem;
+  line-height: 22.4px;
+  font-weight: 700;
 }
 .Auth-toggle-btn {
   margin: 35px auto 0;
-  width: 100px;
   height: 36px;
   color: rgb(243, 240, 240);
-  font-weight: bold;
-  border: 3px solid rgb(243, 240, 240);
+  font-weight: 900;
+  border-bottom: 2px solid rgb(243, 240, 240);
   background-color: transparent;
   text-decoration: none !important;
 }

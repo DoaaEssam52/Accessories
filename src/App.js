@@ -3,6 +3,7 @@ import "./Styles/App.css";
 import "./Styles/Contact.css";
 import "./Styles/Home.css";
 import "./Styles/Auth.css";
+import "./Styles/ShopAll.css";
 import "./Styles/Cart_Product.css";
 import "./Styles/Navbar.css";
 import "./Styles/Footer.css";

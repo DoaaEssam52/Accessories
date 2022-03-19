@@ -140,7 +140,7 @@ function Home() {
               <h4 className="sub-title2">
                 FOLLOW
                 <br />
-                ADALENE ON INSTAGRAM
+                Belle ON INSTAGRAM
               </h4>
               <ItemsCarousel
                 requestToChangeActive={setActiveItemIndex}

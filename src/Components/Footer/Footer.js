@@ -6,7 +6,7 @@ function Footer() {
     <div className='footer'>
         <div className='row flex-center' style={{marginTop:'50px',width:'100%'}}>
             <div className='col-sm'>
-                <div className="nav-brand">adalene.</div>
+                <div className="nav-brand">Belle.</div>
             </div>
             <div className='col-sm footer-item'>
                     <div className='footer-item-value'>

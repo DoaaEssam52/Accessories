@@ -1,3 +1,6 @@
+/*********
+   FONTS
+**********/
 @font-face {
   font-family: didot;
   src: url(../fonts/didot/Didot-HTF-L06-Light.ttf) format("truetype");
@@ -10,6 +13,9 @@
   font-family: didot-italic;
   src: url(../fonts/didot/Didot-HTF-L42-Light-Ital.ttf) format("truetype");
 }
+/*********
+    APP
+**********/
 .App{
   margin-top: 15px;
   max-width: 100%;
@@ -22,7 +28,6 @@
   height: 220px;
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   padding-top: 40px;
 }
 .circle{

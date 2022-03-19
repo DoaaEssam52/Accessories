@@ -34,6 +34,7 @@
 }
 .checkout-product__total-cost {
   text-align: right;
+  color: #bc4c2a;
 }
 @media screen and (max-width:650px) {
   .checkout-product__image{

@@ -1,7 +1,6 @@
 import React ,{useState,useEffect}from 'react'
 import { Link,useHistory } from "react-router-dom"
 
-import bag1 from '../../Images/bag1.jpg'
 
 function ProductCard(props) {
   const Product=props.Product;
