@@ -12,6 +12,7 @@ function Login() {
     const key = e.target.name;
     const value = e.target.value;
     setUser({ ...user, [key]: value });
+    
   };
   const handleUser = (e) => {
     e.preventDefault();
