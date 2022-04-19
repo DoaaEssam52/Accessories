@@ -1,71 +1,23 @@
 /*********
-   FONTS
+  FONTS
 **********/
-@font-face {
-  font-family: didot;
-  src: url(../fonts/didot/Didot-HTF-L06-Light.ttf) format("truetype");
-}
 @font-face {
   font-family: avenir;
   src: url(../fonts/Avenir/avenir_ff/AvenirLTStd-Book.otf) format("truetype");
 }
-@font-face {
-  font-family: didot-italic;
-  src: url(../fonts/didot/Didot-HTF-L42-Light-Ital.ttf) format("truetype");
-}
 /*********
-    APP
+  APP
 **********/
-.App{
-  margin-top: 15px;
-  max-width: 100%;
-  overflow-x: hidden;
+body{
+  background-color: #000000;
+  font-family: avenir;
 }
-/*********
-  LOADER
-**********/
-.wrapper{
-  height: 220px;
-  display: flex;
-  justify-content: center;
-  padding-top: 40px;
+.app{
+  color:white;
 }
-.circle{
-  display: inline-block;
-  width: 15px;
-  height: 15px;
-  background-color: rgb(188, 76, 42);
-  border-radius: 50%;
-  animation: loading 1.5s cubic-bezier(.8, .5, .2, 1.4) infinite;
-  transform-origin: bottom center;
-  position: relative;
-}
-@keyframes loading{
-  0%{
-    transform: translateY(0px);
-    background-color: rgb(188, 76, 42);
-  }
-  50%{
-    transform: translateY(50px);
-    background-color: #ef584a;
-  }
-  100%{
-    transform: translateY(0px);
-    background-color: rgb(188, 76, 42);
-  }
-}
-.circle-1{
-  animation-delay: 0.05s;
-}
-.circle-2{
-  animation-delay: 0.1s;
-}
-.circle-3{
-  animation-delay: 0.15s;
-}
-.circle-4{
-  animation-delay: 0.2s;
-}
-.circle-5{
-  animation-delay: 0.25s;
+.app__main-title{
+  text-align: center;
+  margin: 25px 0 35px;
+  letter-spacing: 0.3rem;
+  font-weight: 800;
 }
